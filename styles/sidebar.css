@@ -1,0 +1,8 @@
+.sidebar{
+    background-color: lightblue;
+    flex: 0 0 30%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
