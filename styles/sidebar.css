@@ -5,7 +5,7 @@
     position: fixed;
     display: flex;
     left: -180px;
-    transition: 0.3s;
+    transition: 0.3s;   
     padding: 10px 15px;
     flex-direction: column ;
     z-index: 1000;
