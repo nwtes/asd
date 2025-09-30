@@ -1,11 +1,16 @@
 .sidebar{
-    background-color: lightblue;
+    background-color: lightgreen;
     flex: 0 0 30%;
     height: 100vh;
     position: fixed;
     display: flex;
+    left: -180px;
+    transition: 0.3s;
     padding: 10px 15px;
     flex-direction: column ;
+}
+.sidebar:hover{
+    left: 0;
 }
 .side-title{
     text-align: center;
