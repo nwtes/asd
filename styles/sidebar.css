@@ -8,6 +8,7 @@
     transition: 0.3s;
     padding: 10px 15px;
     flex-direction: column ;
+    z-index: 1000;
 }
 .sidebar:hover{
     left: 0;
