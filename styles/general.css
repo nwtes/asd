@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: lightcoral;
+    font-family: "Manrope", sans-serif;
 }
 .wrapper{
     display: flex;

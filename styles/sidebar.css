@@ -4,5 +4,33 @@
     height: 100vh;
     position: fixed;
     display: flex;
-    flex-direction: column;
+    padding: 10px 15px;
+    flex-direction: column ;
 }
+.side-title{
+    text-align: center;
+}
+.side-title h1{
+    font-weight: 600;
+}
+.side-info{
+    margin-top: 1rem;
+    text-align: center;
+    line-height: 5px;
+}
+.side-info h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+.side-buttons{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.side-buttons a{
+    color:black;
+    text-decoration: none;
+}   
