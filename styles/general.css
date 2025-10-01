@@ -4,6 +4,8 @@ html, body {
   color: #1f2937;
   font-family: "Manrope", sans-serif;
 }
+a{
+}
 ::selection { background: #A9C9FF; color: #0b1220; }
 
 /* Helpers */
