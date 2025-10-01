@@ -19,3 +19,7 @@ a{
 .social a { color: #6b7280; text-decoration: none; font-size: 18px; }
 .actions { display: flex; gap: 12px; flex-wrap: wrap; }
 .link-cta { color: #2C3E50; font-weight: 600; text-decoration: none; }
+.icon{
+  font-size: 40px;
+  
+}
