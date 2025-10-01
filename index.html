@@ -1,76 +1,187 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/content.css">
-    <title>Document</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap'); 
-    </style>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
-<body>
-    <div class="wrapper">
-        <navbar class="sidebar">
-            <div class="side-title">
-                <h1>
-                    Main Title  
-                </h1>
-            </div>
-            <div class="side-info">
-                <h2>
-                    Side info header
-                </h2>
-                <p>
-                    Side info paragraph
-                </p>
-            </div>
-            <div class="side-buttons">
-                <a href="">
-                    Section 1   
-                </a>
-                <a href="">
-                    Section 2   
-                </a>
-                <a href=""> 
-                    Section 3
-                </a>
-                <a href="">
-                    Section 4
-                </a>
-            </div>
-        </navbar>
-        <section class="content">
-            <div class="hero">
-                <div class="hero-image">
-                    <img src="assets/example.jpg" alt="">
-                </div>
-                <h2>
-                    H2 title for hero section
-                </h2>
-                <p>
-                    paragraph for hero section paragraph for hero section paragraph for hero section
-                </p>
-            </div>
-            <div class="info-cards">
-                <div class="row gap-3">
-                    <div class="col-4 card">1</div>
-                    <div class="col-4 card">2</div>
-                    <div class="col-4 card">3</div>
-                    <div class="col-4 card">4</div>
-                </div>
-            </div>
-            <div class="info">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mindful Care Clinic</title>
+    <meta name="description" content="A journey to mental wellness. Compassionate, confidential, accessible mental health support." />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23A9C9FF'/%3E%3Cpath d='M50 25c10 0 18 8 18 18s-8 18-18 18S32 53 32 43 40 25 50 25z' fill='%232C3E50'/%3E%3C/svg%3E">
+  </head>
+  <body>
+    <!-- Navbar -->
+  <nav>
+      <div class="container">
+        <a class="brand" href="#home">Mindful Care</a>
+        <button class="nav-toggle" type="button" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+        <div id="navMenu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#values">Values</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="btn" href="#contact">Book Schedule</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-            </div>
-        </section>
-        <footer class="footer">
+    <!-- Hero -->
+  <header id="home">
+      <div class="container">
+          <h1>A Journey to Mental Wellness</h1>
+          <p class="muted">Compassionate care, grounded in confidentiality, accessibility, and community.</p>
+          <div class="actions">
+            <a class="btn" href="#tips">Get Started</a>
+            <a class="btn" data-variant="outline" href="#contact">Book Schedule</a>
+          </div>
+      </div>
+    </header>
 
-        </footer>
-    </div>
-</body>
-</html>
+    <!-- About / Intro -->
+    <section id="about">
+      <div class="container">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1200&auto=format&fit=crop" alt="Calming scene of nature">
+        </figure>
+        <div>
+          <h2>You Deserve to be Mentally Healthy</h2>
+          <p class="muted">We meet you where you are with evidence-based, empathetic care. Whether you are seeking strategies for stress, support through anxiety or depression, or tools for better sleep, our team is here to help—confidentially and without judgment.</p>
+          <a href="#contact" class="btn">Check Availability</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips">
+      <div class="container">
+        <header>
+          <h2>First Treatment Tips</h2>
+          <p class="muted">Quick, practical guidance you can start today. Explore more during your session.</p>
+        </header>
+        <article>
+              <span class="badge" aria-hidden="true">🙂</span>
+              <h3>Managing Anxiety</h3>
+              <ul class="muted">
+                <li>Box breathing: 4-4-4-4 count for 2 minutes.</li>
+                <li>Limit caffeine and news before noon.</li>
+                <li>Grounding: name 5 things you see.</li>
+              </ul>
+              <a class="link-cta" href="#contact" aria-label="Learn more about managing anxiety">Learn More</a>
+        </article>
+        <article>
+              <span class="badge" aria-hidden="true">❤️</span>
+              <h3>Coping with Depression</h3>
+              <ul class="muted">
+                <li>Set one small, doable goal daily.</li>
+                <li>Morning light: 10 minutes by a window.</li>
+                <li>Reach out to a trusted friend.</li>
+              </ul>
+              <a class="link-cta" href="#contact" aria-label="Learn more about coping with depression">Learn More</a>
+        </article>
+        <article>
+              <span class="badge" aria-hidden="true">🌬️</span>
+              <h3>Easing Stress</h3>
+              <ul class="muted">
+                <li>90-second pause before reacting.</li>
+                <li>Schedule a 10-minute walk break.</li>
+                <li>Single-task: silence notifications.</li>
+              </ul>
+              <a class="link-cta" href="#contact" aria-label="Learn more about easing stress">Learn More</a>
+        </article>
+        <article>
+              <span class="badge" aria-hidden="true">🌙</span>
+              <h3>Better Sleep</h3>
+              <ul class="muted">
+                <li>Keep a consistent bedtime.</li>
+                <li>Dim screens 1 hour before bed.</li>
+                <li>Keep the bedroom cool and dark.</li>
+              </ul>
+              <a class="link-cta" href="#contact" aria-label="Learn more about better sleep">Learn More</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Core Values -->
+    <section id="values">
+      <div class="container">
+        <header>
+          <h2>Our Core Values</h2>
+          <p class="muted">Confidentiality, accessibility, and community at the heart of our work.</p>
+        </header>
+        <article>
+          <span class="badge" aria-hidden="true">🔒</span>
+          <h3>Confidentiality</h3>
+          <p class="muted">Your privacy is protected. Sessions are secure and judgment-free.</p>
+        </article>
+        <article>
+          <span class="badge" aria-hidden="true">♿</span>
+          <h3>Accessibility</h3>
+          <p class="muted">Support for all backgrounds with flexible, inclusive care options.</p>
+        </article>
+        <article>
+          <span class="badge" aria-hidden="true">👥</span>
+          <h3>Community</h3>
+          <p class="muted">We foster a safe, supportive space where you’re not alone.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <section id="contact">
+      <div class="container">
+        <div>
+          <h2>Get in Touch</h2>
+          <p class="muted">Email us or send a message—our team will respond within one business day.</p>
+          <div>
+            <div><span aria-hidden="true">✉️</span> <a href="mailto:hello@mindfulcare.example">hello@mindfulcare.example</a></div>
+            <div><span aria-hidden="true">☎️</span> <a href="tel:+1234567890">+1 (234) 567-890</a></div>
+          </div>
+          <div class="social">
+            <a aria-label="Twitter" href="#">𝕏</a>
+            <a aria-label="Facebook" href="#">f</a>
+            <a aria-label="Instagram" href="#">◎</a>
+            <a aria-label="LinkedIn" href="#">in</a>
+          </div>
+        </div>
+        <form id="contactForm" novalidate>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your full name" />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required placeholder="How can we help?"></textarea>
+          <div class="actions">
+            <label>
+              <input type="checkbox" id="privacy" required />
+              <span>I agree to the privacy policy</span>
+            </label>
+            <button class="btn" type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>© <span>2025</span> Mindful Care. All rights reserved.</p>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tips">Services</a></li>
+          <li><a href="#tips">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+
+  </body>
+  </html>
