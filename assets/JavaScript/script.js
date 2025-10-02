@@ -20,6 +20,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   const menu = document.getElementById('navMenu');
   if (!toggle || !menu) return;
   toggle.addEventListener('click', () => {
-    menu.classList.toggle('show');
+    const isOpen = menu.classList.toggle('show');
+    toggle.setAttribute('aria-expanded', String(isOpen));
   });
 })();

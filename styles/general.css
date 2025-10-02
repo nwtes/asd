@@ -1,25 +1,100 @@
 /* Base */
-html, body {
-  background: #ffffff;
+html,
+body {
+  background: #f7f9fc;
   color: #1f2937;
   font-family: "Manrope", sans-serif;
+  line-height: 1.6;
 }
-a{
+
+a {
+  color: #2C3E50;
+  text-decoration: none;
 }
-::selection { background: #A9C9FF; color: #0b1220; }
+
+a:hover {
+  text-decoration: underline;
+}
+
+::selection {
+  background: #A9C9FF;
+  color: #0b1220;
+}
 
 /* Helpers */
-.container { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 20px; }
-.muted { color: #6b7280; }
-.btn { display: inline-block; text-decoration: none; border-radius: 999px; padding: 10px 18px; font-weight: 600; border: 1px solid #2C3E50; background: #2C3E50; color: #fff; }
-.btn:hover { background: #1e2a36; border-color: #1e2a36; }
-.btn[data-variant="outline"] { background: transparent; color: #2C3E50; }
-.badge { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 12px; background: #A9C9FF; color: #2C3E50; margin-bottom: 10px; }
-.social { display: flex; gap: 14px; margin-top: 16px; }
-.social a { color: #6b7280; text-decoration: none; font-size: 18px; }
-.actions { display: flex; gap: 12px; flex-wrap: wrap; }
-.link-cta { color: #2C3E50; font-weight: 600; text-decoration: none; }
-.icon{
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.muted {
+  color: #6b7280;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-weight: 600;
+  border: 1px solid #2C3E50;
+  background: #2C3E50;
+  color: #fff;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.btn:hover {
+  background: #1e2a36;
+  border-color: #1e2a36;
+}
+
+.btn[data-variant="outline"] {
+  background: transparent;
+  color: #2C3E50;
+}
+
+.btn[data-variant="outline"]:hover {
+  background: rgba(44, 62, 80, 0.08);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: #A9C9FF;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+
+.social {
+  display: flex;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.social a {
+  color: #6b7280;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.link-cta {
+  color: #2C3E50;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.icon {
   font-size: 40px;
-  
 }
