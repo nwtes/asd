@@ -98,3 +98,10 @@ a:hover {
 .icon {
   font-size: 40px;
 }
+
+/* Anchor offset to accommodate sticky navigation */
+section[id],
+header[id],
+.card-container[id] {
+  scroll-margin-top: 96px;
+}

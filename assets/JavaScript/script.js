@@ -14,7 +14,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     }
   });
 });
-// Mobile nav toggle (no Bootstrap CSS)
+// Mobile nav toggle
 (function () {
   const toggle = document.querySelector('.nav-toggle');
   const menu = document.getElementById('navMenu');
