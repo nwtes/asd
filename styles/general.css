@@ -12,10 +12,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 ::selection {
   background: #A9C9FF;
   color: #0b1220;
