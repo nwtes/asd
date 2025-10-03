@@ -62,5 +62,6 @@ Mindful Care Clinic is a responsive single-page site designed to help prospectiv
 ### Attributions
 - Font Awesome icons courtesy of [Font Awesome](https://fontawesome.com/) (kit `7babdebb89.js`).
 - Google Fonts served via `fonts.googleapis.com` for Manrope, Open Sans, and Poppins.
+- Card photography sourced via [Unsplash](https://unsplash.com/) community contributors.
 - Smooth scroll and nav toggle logic under `assets/JavaScript/script.js` is custom-written for this project.
 
