@@ -211,7 +211,6 @@ footer p {
     padding: 0;
     color: #6b7280;
 }
-.actions label{}
 
 /* Responsive */
 
@@ -230,7 +229,16 @@ footer p {
     #contact .container {
         grid-template-columns: 1fr;
     }
-
+    .card-container{
+        margin-right: 30px;
+    }
+    #home .container,
+    #about .container,
+    #values .container {
+        margin-right: 30px;
+        margin-left: 0;
+        width: calc(100% - 30px);
+    }
     header {
         text-align: center;
     }
@@ -252,6 +260,16 @@ footer p {
     #values .container {
         grid-template-columns: 1fr;
     }
+    .card-container{
+        margin-right: 30px;
+    }
+    #home .container,
+    #about .container,
+    #values .container {
+        margin-right: 30px;
+        margin-left: 0;
+        width: calc(100% - 30px);
+    }
 
     #contact form {
         padding: 20px;
@@ -262,7 +280,16 @@ footer p {
     #contact {
         padding: 48px 0;
     }
-
+    .card-container{
+        margin-right: 30px;
+    }
+    #home .container,
+    #about .container,
+    #values .container {
+        margin-right: 30px;
+        margin-left: 0;
+        width: calc(100% - 30px);
+    }
     footer .container {
         flex-direction: column;
         gap: 12px;
