@@ -5,30 +5,43 @@ Mindful Care Clinic is a responsive single-page site designed to help prospectiv
 ### Table of contents
 1. [Why it matters](#why-it-matters)
 2. [Highlights](#highlights)
-3. [Site walkthrough](#site-walkthrough)
-4. [Screenshots](#screenshots)
-5. [Run it locally](#run-it-locally)
-6. [Deploy it](#deploy-it)
-7. [Tech stack](#tech-stack)
-8. [Accessibility & performance considerations](#accessibility--performance-considerations)
-9. [Attributions](#attributions)
+3. [Design palette & section styling](#design-palette--section-styling)
+4. [Site walkthrough](#site-walkthrough)
+5. [Screenshots](#screenshots)
+6. [Run it locally](#run-it-locally)
+7. [Deploy it](#deploy-it)
+8. [Tech stack](#tech-stack)
+9. [Accessibility & performance considerations](#accessibility--performance-considerations)
+10. [Attributions](#attributions)
 
 ### Why it matters
 - **Prospective clients** get calming guidance, practical next steps, and clear booking paths in one scrollable experience.
 - **Clinic staff** gain an always-on marketing presence that highlights expertise, builds trust, and collects high-quality inquiries.
 
-### Site walkthrough
-- **Hero + navigation** — Provides a confident brand entry point, prioritized calls to action (“Get Started”, “Book Schedule”), and sticky navigation for quick jumps.
-- **About section** — Pairs an inviting photo with supporting copy so visitors know who the clinic serves and how support is delivered.
-- **First Treatment Tips** — Offers actionable micro-advice for anxiety, depression, stress, and sleep; each “Learn More” link deepens the narrative via the detailed cards below.
-- **Detailed cards** — Translate tips into session outcomes so users understand what working with the clinic actually looks like.
-- **Values + Contact** — Reinforces trust (confidentiality, accessibility, community) and closes with a frictionless contact form and consent acknowledgement.
-
 ### Highlights
 - Sticky navigation with smooth in-page anchors for fast access to each section.
-- “First Treatment Tips” grid with quick wins that segue into deeper resource cards.
-- Detailed cards (Anxiety, Depression, Stress, Sleep) that explain what to expect in session and link to contact points.
+- Modular content layout that moves from quick tips to deeper program snapshots without overwhelming the reader.
 - Core values and contact sections that reinforce credibility and make conversion straightforward.
+
+### Design palette & section styling
+- **Color language** — Primary surfaces rely on soft cool tones: the page background `#f7f9fc`, hero gradient `#C9D6FF → #ffffff`, and deep slate `#2C3E50` for typography and call-to-action buttons. Accent `#A9C9FF` appears in icons, focus states, and subtle highlights to keep the aesthetic calm but optimistic.
+- **Typography** — Poppins headlines deliver structure and confidence, while Manrope/Open Sans keep longer copy approachable.
+
+| Section | Color treatment | Layout & design cues |
+| --- | --- | --- |
+| Navigation & hero | White navigation bar with a faint shadow sits above a sky-inspired gradient. Buttons and brand name use the navy primary color for contrast. | Wide breathing room, centered headline, rounded CTA buttons, and sticky behavior that keeps navigation accessible as you scroll. |
+| About | Image frame and content column rest on a white card lifted from the pale background via shadow and rounded corners. | Two-column grid collapses vertically on smaller screens, retaining generous padding so the story remains readable. |
+| First treatment tips | Four white tiles hover over a light gradient with monochrome icon accents and muted body copy. | Evenly spaced grid that stacks gracefully on tablets, keeping each tip self-contained. |
+| Detailed cards | Each program card blends photography with white content panels and deeper shadow to suggest depth. | Vertical stacking with comfortable line spacing, bulleted lists, and hover elevation to hint at interactivity. |
+| Core values | Neutral white cards with centered navy typography and iconography, floating on the soft background color. | Three-column layout that compresses to centered single cards on small screens. |
+| Contact | Form card and copy column keep to white surfaces bordered by subtle gray, while the accent blue highlights focus rings and buttons. | Grid shifts to single column on mobile, preserving whitespace around fields and privacy checkbox. |
+| Footer | Minimal white strip with light gray divider, allowing navigation links to remain legible without demanding attention. | Flex layout realigns to a centered stack for narrow widths. |
+| Contact page (`contact.html`) | Mirrors the main palette with a lighter hero band and white form card to reassure returning users. | Centered form with rounded edges, soft shadow, and consistent CTA styling. |
+
+### Site walkthrough
+- **Top of page** — A calm introduction with clear entry points to continue exploring.
+- **Middle content** — Short sections that summarize guidance, expand into richer stories, and keep visitors engaged.
+- **Closing panels** — Trust-building reminders and a simple way to start a conversation.
 
 ### Screenshots
 
